@@ -1,0 +1,28 @@
+[project]
+name = "on-policy-monte-carlo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ch0nen", email = "hi@joc.ke" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "gymnasium>=1.0.0",
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.2",
+    "pygame>=2.6.1",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "flake8>=7.1.1",
+    "ipykernel>=6.29.5",
+    "ipython>=8.32.0",
+    "jupyter>=1.1.1",
+    "mypy>=1.15.0",
+    "pytest>=8.3.4",
+    "ruff>=0.9.5",
+]
