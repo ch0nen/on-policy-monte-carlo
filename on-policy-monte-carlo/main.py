@@ -1,5 +1,5 @@
 from matplotlib import pyplot as plt
-from common import Maze
+from utils.common import Maze
 
 def main():
     env = Maze()
@@ -12,7 +12,6 @@ def main():
 
     print(f"Observation space shape: {env.observation_space.nvec}")
     print(f"Number of actions: {env.action_space.n}")
-
 
 if __name__ == "__main__":
     main()
